@@ -20,7 +20,7 @@ seventh-packet-byte-count.png
 
 \#*#
 ~*
-
+src/lorawan/.idea/
 testpy-output
 
 bindings/python/pybindgen/

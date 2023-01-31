@@ -18,3 +18,9 @@ def build(bld):
 
     obj = bld.create_ns3_program('lorawan-long-term-test', ['lorawan'])
     obj.source = 'lorawan-long-term-test.cc'
+
+    obj = bld.create_ns3_program('lorawan-class-b-demo', ['lorawan'])
+    obj.source = 'lorawan-class-b-demo.cc'
+
+    obj = bld.create_ns3_program('lorawan-multicast', ['lorawan'])
+    obj.source = 'lorawan-multicast.cc'
